@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bowling</title>
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=1">
+	<link rel="stylesheet" type="text/css" href="FinalStyle.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r119/three.min.js"></script>
+<script src="lib/OrbitControls.js"></script>
+<script src="lib/GLTFLoader.js"></script>
+<script type="module" src="Final.js"></script>
+
+<div id="counter">
+<div class="score" id="Scoree"><h2> Score:<div id="score"><center>0</center></h2></div></div>
+</div><div class="menu1">
+
+<h3>Camera movements</h3>
+<button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-circle-arrow-left"></span> Left
+        </button>
+         <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-circle-arrow-right"></span> Right
+        </button> <br>
+        
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-circle-arrow-up"></span> Up
+        </button>
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-circle-arrow-down"></span> Down
+        </button>
+      </div>
+      
+<div class="menu2">
+	    <h3> Zoom </h3>
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-zoom-in"></span> <b>I</b>
+        </button>
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-zoom-out"></span> O
+        </button>
+       </div>
+<div class="menu">
+	<h3>Move sphere with:</h3>
+     <center> <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-minus"></span> Space
+      </button>  </center>
+      <br>
+      <button type="button" class="btn btn-default btn-sm">D</button>
+        <button type="button" class="btn btn-default btn-sm">A</button>  
+</div>
+</body>
+</html>
